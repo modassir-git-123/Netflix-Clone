@@ -1,2 +1,2 @@
 # Netflix-Clone
-This is the Netflix clone Home page
+This is the Netflix clone Home page.
