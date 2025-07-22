@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main {
+    width: 100%;
+    height: 80vh;
+    background-image: url("img/bg1.jpg");
+    background-position: center center;
+
+}
+
+.full {
+    background-color: rgba(23, 23, 23, 0.7);
+    box-shadow: 00px 0px 0px rgba(23, 23, 0.7);
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+
+
+}
+
+.back {
+    background-color: rgba(23, 23, 23, 0.7);
+    height: 100%;
+    width: 100%;
+}
+
+.main img {
+    width: 150px;
+}
+
+.headline {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 40px 20px 0px 20px;
+}
+
+.headline :nth-child(1) {
+    font-size: 45px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 900;
+}
+
+.headline :nth-child(2) {
+    font-size: 21px;
+}
+
+.headline :nth-child(3) {
+    font-size: 19px;
+    padding: 0px 45px;
+}
+
+select {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 4px 10px;
+    color: white;
+}
+
+select option {
+    background-color: red;
+    color: white;
+}
+
+.language {
+    background-color: rgba(23, 23, 23, 0.7);
+    width: 80px;
+    color: white;
+}
+
+.form1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+
+}
+
+.form1 input {
+    background-color: rgba(23, 23, 23, 0.1);
+    border: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: white;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 17px;
+    margin-right: 5px;
+    width: 300px;
+    margin-bottom: 15px;
+
+
+}
+
+.btn1 {
+    background: rgba(245, 8, 8, 0.913);
+    padding: 3px 8px 5px 8px;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+.btn1:hover {
+    background-color: rgba(218, 14, 14, 0.869);
+}
+
+.btn2 {
+    background-color: rgba(245, 8, 8, 0.913);
+    padding: 8px 16px;
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.6s;
+
+}
+
+.btn2:hover {
+    background-color: rgba(218, 14, 14, 0.869);
+}
+
+.devider {
+    color: rgb(60, 60, 60);
+    height: 4px;
+    background-color: rgb(61, 61, 61);
+
+}
+
+.content {
+    background-color: black;
+    padding: 0px 10px;
+
+}
+
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.content1 .cont1 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    vertical-align: baseline;
+}
+
+.content1 .cont1 h2 {
+    font-size: 40px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+
+}
+
+.content1 .cont1 p {
+    text-align: center;
+}
+
+.content1 .cont2 {
+    text-align: center;
+}
+
+.content1 .cont2 img {
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.content1 .cont2 video{
+    width:400px;
+
+    position: absolute;
+}
+.content1 .cont2 .money{
+    width: 20rem;
+    position:relative;
+    z-index:2;
+    margin-bottom: 20px;
+   
+
+
+}
+
+
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 30px;
+
+}
+
+
+.content2 .cont2 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center center;
+}
+
+.content2 .cont1 img {
+    width: 25rem;
+    background-color: white;
+    color: white;
+
+}
+
+.content2 .cont1 .banner1 {
+    border: 2px solid rgb(189, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    border-radius: 5px;
+    margin-left: 4.5em;
+
+}
+
+.content2 .cont1 .m {
+    align-items: center;
+    float: center;
+}
+
+.cont1 .banner1 span {
+    color: white;
+}
+
+.cont1 .banner1 img {
+    width: 3rem;
+
+}
+
+.cont1 .banner1 .st {
+    font-size: 20px;
+}
+
+.cont1 .banner1 .down {
+    color: rgb(73, 73, 227);
+}
+
+.content2 .cont2 h2 {
+    font-size: 40px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+
+}
+
+.content2 .cont2 p {
+    text-align: center;
+}
+
+
+.content3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 30px;
+
+}
+
+
+.content3 .cont1 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center center;
+}
+
+.content3 .cont2 img {
+    width: 82%;
+    background-color: rgb(0, 0, 0);
+    margin-left:13%;
+    
+
+}
+.content3 .cont2 .godzilla{
+    width: 53%;
+    margin-bottom:-50%;
+    margin-left:20%;
+    position:relative;
+    opacity:0.9;
+    z-index:2;
+   
+
+
+}
+
+.content3 .cont1 h2 {
+    font-size: 40px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+
+}
+
+.content3 .cont1 p {
+    text-align: center;
+}
+
+.content4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 30px;
+
+}
+
+
+.content4 .cont2 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center center;
+}
+
+.content4 .cont1 img {
+    width: 25rem;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.content4 .cont2 h2 {
+    font-size: 40px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+
+}
+
+.content4 .cont2 p {
+    text-align: center;
+}
+
+.heading2 {
+    background-color: black;
+}
+
+.heading2 h2 {
+
+    text-align: center;
+    font-size: 45px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.question {
+    width: 90%;
+
+    margin-left: 5%;
+}
+
+.q1 {
+    background-color: rgb(41, 41, 41);
+}
+
+
+.q1:hover {
+    background-color: rgb(79, 79, 79);
+}
+
+.q1 .q svg:active {
+    transform: rotate(45deg);
+
+}
+
+.q {
+    width: 100%;
+    padding: 20px 5px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .left {
+    font-size: 22px;
+}
+
+.q1 .detail {
+    color: white;
+    font-size: 20px;
+}
+
+.membership {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.member h2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 0px 60px;
+}
+
+.field {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+}
+
+.form2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    right: 15%;
+
+}
+
+.form2 input {
+    background-color: rgba(23, 23, 23, 0.1);
+    border: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: white;
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 17px;
+    margin-right: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+
+}
+
+.bottom {
+    background-color: black;
+    padding: 0px 20px 40px 0px;
+
+}
+
+.bottom h5 {
+    color: white;
+
+}
+
+.btm1 ul li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.bottom1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btm {
+    padding-top: 200px;
+}
+
+.bottom1 .btm1 {
+    color: white;
+}
+
+
+
+.btm2 ul li {
+    list-style: none;
+}
+
+.bottom1 .btm2 {
+    color: white;
+}
+
+.bottom .bottom1 ul li a {
+    color: rgb(200, 200, 200);
+
+}
+
+.btm1 ul li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.btm2 ul li {
+    margin: 10px 0px;
+}
+
+.call {
+    margin: 0px 0px 30px 30px;
+    color: rgb(200, 200, 200);
+}
+
+
+.bottom2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom2 .btm2 {
+    color: white;
+}
+
+.btm2 ul li {
+    list-style: none;
+}
+
+.bottom2 .btm2 {
+    color: white;
+}
+
+.bottom .bottom2 ul li a {
+    color: rgb(200, 200, 200);
+
+}
+
+.bottom .lang{
+    margin-left:30px;
+
+}
+.lang select{
+    margin-top:10px;
+    padding:8px 16px;
+}
+.bottom .netflix{
+    color:rgb(201, 201, 201);
+    margin-left:30px;
+    margin-top:10px;
+}
+
+@media only screen and (max-width:762px)  {
+    .headline :nth-child(1) {
+        font-size: 34px;
+        font-family: "Cabin", sans-serif;
+        font-weight: 900;
+    }
+    
+} 
